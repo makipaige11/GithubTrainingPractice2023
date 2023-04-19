@@ -13,7 +13,6 @@ struct ContentView: View {
             Image("FinnickChristmas")
                 .resizable(resizingMode: .stretch)
                 .aspectRatio(contentMode: .fit)
-                .cornerRadius(5)
         }
         .padding()
     }
